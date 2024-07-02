@@ -23,7 +23,8 @@
   --popout-activeborders: #1f1f1f;
 }
 
-.container_bf550a, .sidebarRegionScroller_c25c6d {
+.container_bf550a,
+.sidebarRegionScroller_c25c6d {
   background-color: var(--dark-primary);
 }
 
@@ -36,7 +37,11 @@
   border-radius: 20px;
 }
 
-.theme-dark .themed_e44302, .container_fd6364, .member_a31c43, .member_cbd271, .members_cbd271 {
+.theme-dark .themed_e44302,
+.container_fd6364,
+.member_a31c43,
+.member_cbd271,
+.members_cbd271 {
   background-color: var(--dark-primary);
 }
 
@@ -44,7 +49,10 @@
   background-color: var(--dark-secondary);
 }
 
-.sidebar_a4d4d9, .platform-win .sidebar_a4d4d9, .layers_a01fb1, .applicationStore_cecc86 {
+.sidebar_a4d4d9,
+.platform-win .sidebar_a4d4d9,
+.layers_a01fb1,
+.applicationStore_cecc86 {
   border-radius: 20px;
 }
 
@@ -62,12 +70,14 @@
   background-color: var(--roundmoled-background);
 }
 
-.appMount_ea7e65, .bg_d4b6c5 {
+.appMount_ea7e65,
+.bg_d4b6c5 {
   background-color: var(--roundmoled-background);
 }
 
-.content_a4d4d9 > *:not(:last-child) {
+.content_a4d4d9 > *:not([hidden]) {
   margin-left: 15px;
+  gap: 15px;
 }
 
 .container_c2739c {
@@ -284,10 +294,7 @@
 .theme-dark .footer-VCsJQY {
   box-shadow: none;
 }
-.uploadModal-2ie9O_
-  .inner-rBP-MS
-  .file-163EuR.expandable-2-lrzP
-  .description-2AJi-V {
+.uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR.expandable-2-lrzP .description-2AJi-V {
   position: relative;
   margin-left: 50%;
   transform: translate(-50%);
@@ -305,9 +312,7 @@
   border-radius: 25px;
 }
 
-.uploadModal-2ie9O_
-  .footer-VCsJQY.hasSpoilers-33hwf_
-  .checkboxWrapper-2fDzaA:hover {
+.uploadModal-2ie9O_ .footer-VCsJQY.hasSpoilers-33hwf_ .checkboxWrapper-2fDzaA:hover {
   background-color: var(--dark-secondary);
   transition: 250ms ease-in-out;
 }
@@ -1456,18 +1461,19 @@ basesp
 
 /* Activity centered fix for biguserpopout*/
 
-.body-1Ukv50
-  .activityProfile-1712BN.userProfileActivity-sal5no.newProfileActivityStyles {
+.body-1Ukv50 .activityProfile-1712BN.userProfileActivity-sal5no.newProfileActivityStyles {
   left: 50%;
   top: 10%;
   width: 100%;
   transform: translate(-50%, -10%);
 }
 
-.body-1Ukv50 .button-TGAkj4.button-f2h6uQ.lookFilled-1Gx00P.colorGrey-2DXtkV.buttonSize-dIiz43.fullWidth-1orjjo.grow-q77ONN,
+.body-1Ukv50
+  .button-TGAkj4.button-f2h6uQ.lookFilled-1Gx00P.colorGrey-2DXtkV.buttonSize-dIiz43.fullWidth-1orjjo.grow-q77ONN,
 .body-1Ukv50 .disabledButtonWrapper-3wH6-b.buttonSize-AQY2mE.grow-q77ONN.fullWidth-1orjjo,
 .body-1Ukv50 .disabledButtonOverlay-2DA5FI,
-.body-1Ukv50 .button-TGAkj4.button-f2h6uQ.lookFilled-1Gx00P.colorGrey-2DXtkV.buttonSize-AQY2mE.fullWidth-1orjjo.grow-q77ONN {
+.body-1Ukv50
+  .button-TGAkj4.button-f2h6uQ.lookFilled-1Gx00P.colorGrey-2DXtkV.buttonSize-AQY2mE.fullWidth-1orjjo.grow-q77ONN {
   left: 0%;
   top: 65%;
   transform: scale(0.915);
@@ -1946,15 +1952,15 @@ button.gm-spotify-controls-button {
 .replyBar-1oi75v,
 .threadSuggestionBar-3ExSyc,
 .attachedBars-2BCP3l {
-  background-color:var(--dark-primary);
+  background-color: var(--dark-primary);
   background-color: var(--dark-secondary-alt);
   border-radius: 25px;
   margin-bottom: 3px;
 }
 
 .emojiItemDisabled-1FvFuF {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 /****************************************************************************************
@@ -1972,16 +1978,12 @@ dcvarsp
 :root.theme-dark {
   --background-tertiary: #2a2b2f;
   --background-secondary: #18191d; /* guild folder border background */
-  --background-secondary-alt: var(
-    --dark-primary
-  ); /* change it and see for yourself */
+  --background-secondary-alt: var(--dark-primary); /* change it and see for yourself */
   --background-primary: var(
     --dark-primary
   ); /* primary background color, full amoled black  */
   --channeltextarea-background: #070b10; /* color of your chat bar */
-  --background-accent: var(
-    --brand-experiment
-  ); /* discords accent color (default) */
+  --background-accent: var(--brand-experiment); /* discords accent color (default) */
   --background-message-hover: transparent;
   --background-modifier-hover: #36559138;
   --background-modifier-active: #36559138;
