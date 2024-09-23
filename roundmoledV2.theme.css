@@ -5,7 +5,7 @@
 * @source https://github.com/TheoEwzZer/RoundmoledV2
 * @updateUrl https://raw.githubusercontent.com/TheoEwzZer/RoundmoledV2/main/roundmoledV2.theme.css
 * @authorId 384009727253807105
-* @version 1.0
+* @version 1.1
 */
 
 /*  imports */
@@ -21,6 +21,18 @@
   --dark-bright: #0b0b0b;
   --roundmoled-background: #142339;
   --popout-activeborders: #1f1f1f;
+}
+
+.theme-dark .themed_fc4f04 {
+  background-color: var(--dark-primary);
+}
+
+.searchBar_f0963d .searchBarComponent_f0963d {
+  border-radius: 10px;
+}
+
+.container_cbd271 {
+  background-color: var(--dark-primary);
 }
 
 .container_bf550a,
@@ -77,7 +89,7 @@
 
 .content_a4d4d9 > *:not([hidden]) {
   margin-left: 15px;
-  gap: 15px;
+  gap: 0px;
 }
 
 .container_c2739c {
