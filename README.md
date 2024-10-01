@@ -51,7 +51,7 @@ The theme uses the following variables for colors:
 
 ## Preview
 
-![Theme Preview](preview.png)
+![Theme Preview](https://github.com/TheoEwzZer/RoundmoledV2/blob/main/preview.png)
 
 ## Acknowledgements
 
