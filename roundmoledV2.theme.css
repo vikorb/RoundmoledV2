@@ -57,10 +57,6 @@
   background-color: var(--dark-primary);
 }
 
-.scroller_c43953 {
-  background-color: var(--dark-secondary);
-}
-
 .sidebar_a4d4d9,
 .platform-win .sidebar_a4d4d9,
 .layers_a01fb1,
@@ -2016,4 +2012,8 @@ dcvarsp
 
 .content-yjf30S {
   background-color: var(--dark-secondary-alt);
+}
+
+.theme-dark .container_ee69e0 {
+  background-color: var(--dark-secondary);
 }
