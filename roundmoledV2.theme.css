@@ -1990,12 +1990,12 @@ dcvarsp
   --background-primary: var(
     --dark-primary
   ); /* primary background color, full amoled black  */
-  --channeltextarea-background: #070b10; /* color of your chat bar */
+  --channeltextarea-background: #140814; /* color of your chat bar */
   --background-accent: var(--brand-experiment); /* discords accent color (default) */
   --background-message-hover: transparent;
-  --background-modifier-hover: #36559138;
-  --background-modifier-active: #36559138;
-  --background-modifier-selected: #406abb38;
+  --background-modifier-hover: #913582;
+  --background-modifier-active: #A13074;
+  --background-modifier-selected: #BB4C9F;
   --background-floating: var(--dark-primary); /* userpopout background */
   --scrollbar-auto-thumb: var(--brand-experiment);
   --scrollbar-auto-track: #0d0d0d;
