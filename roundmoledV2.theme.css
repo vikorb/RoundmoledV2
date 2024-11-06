@@ -1993,9 +1993,9 @@ dcvarsp
   --channeltextarea-background: #140814; /* color of your chat bar */
   --background-accent: var(--brand-experiment); /* discords accent color (default) */
   --background-message-hover: transparent;
-  --background-modifier-hover: #A64684;
-  --background-modifier-active: #CC5EA3;
-  --background-modifier-selected: #8C2B68;
+  --background-modifier-hover: #B86794;
+  --background-modifier-active: #DB7BB1;
+  --background-modifier-selected: #AB4E84;
   --background-floating: var(--dark-primary); /* userpopout background */
   --scrollbar-auto-thumb: var(--brand-experiment);
   --scrollbar-auto-track: #0d0d0d;
